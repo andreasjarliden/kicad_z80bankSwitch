@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "z80.kicad_pro",
+    "filename": "z80bankSwitch.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -707,8 +707,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "z80.kicad_sch",
-        "name": "z80",
+        "filename": "z80bankSwitch.kicad_sch",
+        "name": "z80bankSwitch",
         "uuid": "e7eeb274-d662-49f9-a7ce-d4911c9f2b64"
       }
     ],
