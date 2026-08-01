@@ -488,7 +488,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Own Symbol Library"
+    ]
   },
   "meta": {
     "filename": "z80bankSwitch.kicad_pro",
@@ -718,7 +720,7 @@
   "sheets": [
     [
       "e7eeb274-d662-49f9-a7ce-d4911c9f2b64",
-      "z80"
+      "z80bankSwitch"
     ]
   ],
   "text_variables": {},
