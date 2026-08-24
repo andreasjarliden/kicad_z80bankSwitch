@@ -11977,7 +11977,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_RAM:AS6C4008-55PCN"
+		(symbol "Own Symbol Library:AS6C8008-55ZIN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11994,7 +11994,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "AS6C4008-55PCN"
+			(property "Value" "AS6C8008-55ZIN"
 				(at 2.54 26.035 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12005,7 +12005,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-32_W15.24mm"
+			(property "Footprint" "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12016,7 +12016,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
+			(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12027,7 +12027,7 @@
 					)
 				)
 			)
-			(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(property "Description" "1M x 8 Low Power CMOS RAM, TSOP-II"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12049,36 +12049,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W15.24mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AS6C4008-55PCN_0_0"
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "AS6C8008-55ZIN_0_0"
 				(pin power_in line
 					(at 0 27.94 270)
 					(length 2.54)
@@ -12089,7 +12060,25 @@
 							)
 						)
 					)
-					(number "32"
+					(number "[11,33]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[12,34]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12098,10 +12087,10 @@
 					)
 				)
 			)
-			(symbol "AS6C4008-55PCN_0_1"
+			(symbol "AS6C8008-55ZIN_0_1"
 				(rectangle
 					(start -10.16 25.4)
-					(end 10.16 -25.4)
+					(end 10.16 -27.94)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -12111,133 +12100,7 @@
 					)
 				)
 			)
-			(symbol "AS6C4008-55PCN_1_1"
-				(pin input line
-					(at -12.7 -22.86 0)
-					(length 2.54)
-					(name "A18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -17.78 0)
-					(length 2.54)
-					(name "A16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "AS6C8008-55ZIN_1_1"
 				(pin input line
 					(at -12.7 12.7 0)
 					(length 2.54)
@@ -12248,7 +12111,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12266,7 +12129,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12284,7 +12147,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12302,7 +12165,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12320,151 +12183,7 @@
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 22.86 180)
-					(length 2.54)
-					(name "DQ0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "DQ1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 17.78 180)
-					(length 2.54)
-					(name "DQ2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(name "DQ3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "DQ4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "DQ5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "DQ6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "DQ7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12482,7 +12201,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12490,17 +12209,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin bidirectional line
+					(at 12.7 22.86 180)
 					(length 2.54)
-					(name "A10"
+					(name "DQ0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12508,17 +12227,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 12.7 -5.08 180)
+				(pin bidirectional line
+					(at 12.7 20.32 180)
 					(length 2.54)
-					(name "OE#"
+					(name "DQ1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12526,17 +12245,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -5.08 0)
+				(pin bidirectional line
+					(at 12.7 17.78 180)
 					(length 2.54)
-					(name "A11"
+					(name "DQ2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12544,35 +12263,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 0 0)
+				(pin bidirectional line
+					(at 12.7 15.24 180)
 					(length 2.54)
-					(name "A9"
+					(name "DQ3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12581,25 +12282,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -7.62 180)
+					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "WE#"
 						(effects
@@ -12608,7 +12291,43 @@
 							)
 						)
 					)
-					(number "29"
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -25.4 0)
+					(length 2.54)
+					(name "A19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12626,7 +12345,25 @@
 							)
 						)
 					)
-					(number "30"
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12644,7 +12381,295 @@
 							)
 						)
 					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "DQ4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "DQ5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "DQ6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DQ7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "CE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "OE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -17306,7 +17331,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 31.75) (xy 215.9 36.83)
+			(xy 212.09 31.75) (xy 212.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -18876,7 +18901,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 92.71) (xy 215.9 96.52)
+			(xy 212.09 95.25) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -19075,7 +19100,7 @@
 		(uuid "11a95ece-301d-4006-8775-765f1a3f7d68")
 	)
 	(label "GND"
-		(at 215.9 96.52 0)
+		(at 212.09 99.06 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19155,7 +19180,7 @@
 		(uuid "5c95575b-c77d-4cd5-8e2a-c2d1bb471394")
 	)
 	(label "~{CE_RAM}"
-		(at 228.6 67.31 0)
+		(at 224.79 67.31 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19375,7 +19400,7 @@
 		(uuid "de80d7b9-62b5-48f2-a517-dd770ead1c5d")
 	)
 	(label "VCC"
-		(at 215.9 31.75 0)
+		(at 212.09 31.75 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -19434,7 +19459,7 @@
 	)
 	(global_label "A10"
 		(shape input)
-		(at 203.2 67.31 180)
+		(at 199.39 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19444,7 +19469,7 @@
 		)
 		(uuid "0831ac7c-780a-4150-b6c0-b376d01f0d26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4092 67.31 0)
+			(at 191.5992 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19746,7 +19771,7 @@
 	)
 	(global_label "D1"
 		(shape input)
-		(at 228.6 44.45 0)
+		(at 224.79 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19756,7 +19781,7 @@
 		)
 		(uuid "226b6b43-1b0a-4475-a43d-3bb3fc349436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 44.45 0)
+			(at 231.3471 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19962,7 +19987,7 @@
 	)
 	(global_label "A5"
 		(shape input)
-		(at 203.2 54.61 180)
+		(at 199.39 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19972,7 +19997,7 @@
 		)
 		(uuid "29b485d1-e8c4-4bff-a983-908cb21cca57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 54.61 0)
+			(at 193.0506 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20514,7 +20539,7 @@
 	)
 	(global_label "A6"
 		(shape input)
-		(at 203.2 57.15 180)
+		(at 199.39 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20524,7 +20549,7 @@
 		)
 		(uuid "61948327-0469-472f-8c2b-3ee80570630a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 57.15 0)
+			(at 193.0506 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20826,7 +20851,7 @@
 	)
 	(global_label "A11"
 		(shape input)
-		(at 203.2 69.85 180)
+		(at 199.39 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20836,7 +20861,7 @@
 		)
 		(uuid "7c39be57-284f-4e31-b0b5-0b97490a2e63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4092 69.85 0)
+			(at 191.5992 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20970,7 +20995,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 228.6 41.91 0)
+		(at 224.79 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20980,7 +21005,7 @@
 		)
 		(uuid "88d973c5-c1e0-41eb-abd7-a41344bb62d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 41.91 0)
+			(at 231.3471 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20994,7 +21019,7 @@
 	)
 	(global_label "A3"
 		(shape input)
-		(at 203.2 49.53 180)
+		(at 199.39 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21004,7 +21029,7 @@
 		)
 		(uuid "8a277e45-fffd-454a-b25a-2be0a3002fb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 49.53 0)
+			(at 193.0506 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21234,7 +21259,7 @@
 	)
 	(global_label "~{MREQ}"
 		(shape input)
-		(at 228.6 69.85 0)
+		(at 224.79 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21244,7 +21269,7 @@
 		)
 		(uuid "a72bb88d-f653-4adc-aaf7-07d9a9ea03fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4229 69.85 0)
+			(at 234.6129 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21378,7 +21403,7 @@
 	)
 	(global_label "D4"
 		(shape input)
-		(at 228.6 52.07 0)
+		(at 224.79 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21388,7 +21413,7 @@
 		)
 		(uuid "b8ddafd2-c4aa-4529-8be2-193f5530fcef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 52.07 0)
+			(at 231.3471 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21522,7 +21547,7 @@
 	)
 	(global_label "D5"
 		(shape input)
-		(at 228.6 54.61 0)
+		(at 224.79 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21532,7 +21557,7 @@
 		)
 		(uuid "bf34854e-720a-47e9-b98b-10ade3ee3431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 54.61 0)
+			(at 231.3471 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21570,7 +21595,7 @@
 	)
 	(global_label "D6"
 		(shape input)
-		(at 228.6 57.15 0)
+		(at 224.79 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21580,7 +21605,7 @@
 		)
 		(uuid "c2ef64e6-7664-4413-88df-3ec1a8714f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 57.15 0)
+			(at 231.3471 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21594,7 +21619,7 @@
 	)
 	(global_label "A12"
 		(shape input)
-		(at 203.2 72.39 180)
+		(at 199.39 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21604,7 +21629,7 @@
 		)
 		(uuid "c2fd4c48-235b-4bb2-8b03-f24ceaa8cf94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4092 72.39 0)
+			(at 191.5992 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21714,7 +21739,7 @@
 	)
 	(global_label "D7"
 		(shape input)
-		(at 228.6 59.69 0)
+		(at 224.79 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21724,7 +21749,7 @@
 		)
 		(uuid "c704ce43-d4ed-4e17-bd98-6c15898c2f88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 59.69 0)
+			(at 231.3471 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21738,7 +21763,7 @@
 	)
 	(global_label "A0"
 		(shape input)
-		(at 203.2 41.91 180)
+		(at 199.39 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21748,7 +21773,7 @@
 		)
 		(uuid "c845b737-d542-41f5-bb8c-2ca72b29ab29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 41.91 0)
+			(at 193.0506 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21786,7 +21811,7 @@
 	)
 	(global_label "A4"
 		(shape input)
-		(at 203.2 52.07 180)
+		(at 199.39 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21796,7 +21821,7 @@
 		)
 		(uuid "ce3d9dcd-9f2f-48cf-8a3f-61fcaab0a4e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 52.07 0)
+			(at 193.0506 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21954,7 +21979,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 203.2 44.45 180)
+		(at 199.39 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21964,7 +21989,7 @@
 		)
 		(uuid "dae47634-bfa3-43ea-b32c-bb82b94712a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 44.45 0)
+			(at 193.0506 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22002,7 +22027,7 @@
 	)
 	(global_label "A7"
 		(shape input)
-		(at 203.2 59.69 180)
+		(at 199.39 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22012,7 +22037,7 @@
 		)
 		(uuid "db87ba9b-0c0b-4d02-bdda-e4ed411f7e06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 59.69 0)
+			(at 193.0506 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22146,7 +22171,7 @@
 	)
 	(global_label "A2"
 		(shape input)
-		(at 203.2 46.99 180)
+		(at 199.39 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22156,7 +22181,7 @@
 		)
 		(uuid "e2712590-2daa-40de-8d9c-4b82f53d5752")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 46.99 0)
+			(at 193.0506 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22266,7 +22291,7 @@
 	)
 	(global_label "A9"
 		(shape input)
-		(at 203.2 64.77 180)
+		(at 199.39 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22276,7 +22301,7 @@
 		)
 		(uuid "e93d3f9c-4133-4844-a5bb-c8a3a186d978")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 64.77 0)
+			(at 193.0506 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22314,7 +22339,7 @@
 	)
 	(global_label "D3"
 		(shape input)
-		(at 228.6 49.53 0)
+		(at 224.79 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22324,7 +22349,7 @@
 		)
 		(uuid "ebcb59be-ab05-424a-88bf-445f16e52a18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 49.53 0)
+			(at 231.3471 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22458,7 +22483,7 @@
 	)
 	(global_label "~{WR}"
 		(shape input)
-		(at 228.6 72.39 0)
+		(at 224.79 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22468,7 +22493,7 @@
 		)
 		(uuid "f859f7b5-0059-4e33-a9f3-3ef62dea78f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.4474 72.39 0)
+			(at 231.6374 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22482,7 +22507,7 @@
 	)
 	(global_label "D2"
 		(shape input)
-		(at 228.6 46.99 0)
+		(at 224.79 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22492,7 +22517,7 @@
 		)
 		(uuid "f8d70309-2763-4d75-8599-f8b0da6f1360")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1571 46.99 0)
+			(at 231.3471 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22530,7 +22555,7 @@
 	)
 	(global_label "A8"
 		(shape input)
-		(at 203.2 62.23 180)
+		(at 199.39 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22540,7 +22565,7 @@
 		)
 		(uuid "fd6de98e-4d77-4dae-9aca-0a7de50a301d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.8606 62.23 0)
+			(at 193.0506 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24569,6 +24594,184 @@
 		)
 	)
 	(symbol
+		(lib_id "Own Symbol Library:AS6C8008-55ZIN")
+		(at 212.09 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04bbaf0d-dc21-4518-ac69-7e0b49aa2101")
+		(property "Reference" "U4"
+			(at 214.2333 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS6C8008-55ZIN"
+			(at 214.2333 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-II-44_10.16x18.41mm_P0.8mm"
+			(at 212.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf"
+			(at 212.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1M x 8 Low Power CMOS RAM, TSOP-II"
+			(at 212.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "44"
+			(uuid "4eefd8fc-28b3-4218-b527-343779b34585")
+		)
+		(pin "43"
+			(uuid "6a736b8c-7ef1-489f-9cd8-5812f3f6d66f")
+		)
+		(pin "17"
+			(uuid "9a26dba9-2e48-4a15-9e07-0db428d44593")
+		)
+		(pin "1"
+			(uuid "eb69e0b6-52bf-4a8c-97f4-2f4500bf1f47")
+		)
+		(pin "3"
+			(uuid "5d598db7-4980-4f84-8381-5c0c28219347")
+		)
+		(pin "[12,34]"
+			(uuid "91dce9ed-1684-4997-8203-0572114f4346")
+		)
+		(pin "2"
+			(uuid "17f808b7-3595-47e3-84b0-55a0dc149c41")
+		)
+		(pin "[11,33]"
+			(uuid "ce0aae90-d104-4861-81f6-3ff4ca5c41fc")
+		)
+		(pin "4"
+			(uuid "17202fee-e715-4a12-ac60-7a32b93daa45")
+		)
+		(pin "26"
+			(uuid "97a18070-8e53-45dd-85cf-92c9d630bd10")
+		)
+		(pin "27"
+			(uuid "e0cd545a-542b-4902-b800-234d3d45f0d7")
+		)
+		(pin "39"
+			(uuid "10a68dcc-b3b5-44e0-9673-d25249705581")
+		)
+		(pin "10"
+			(uuid "4ee54ef0-30c0-4d05-94b3-d6f4f2ce2def")
+		)
+		(pin "13"
+			(uuid "6d17a856-ed17-4129-b74e-c264b4a253b0")
+		)
+		(pin "23"
+			(uuid "51e3df8c-65c6-4a02-8c46-d6601e32ddf3")
+		)
+		(pin "24"
+			(uuid "a6666d22-fbe3-4b67-9b5b-2f927b97d842")
+		)
+		(pin "40"
+			(uuid "0d43b1ef-a322-4fed-9356-7ddcf9b38342")
+		)
+		(pin "41"
+			(uuid "7a532633-a3aa-4f42-ae96-a2fcb9bfd467")
+		)
+		(pin "21"
+			(uuid "96773958-3374-4789-b7b0-fe480ec1e7b3")
+		)
+		(pin "22"
+			(uuid "0a5801bd-df40-4898-bb68-abc705210851")
+		)
+		(pin "28"
+			(uuid "1b560e1a-c38e-4d35-8c41-504fc95d4cb4")
+		)
+		(pin "32"
+			(uuid "508f36c8-7864-418e-a22b-c92e9699ba28")
+		)
+		(pin "20"
+			(uuid "61989fcb-a652-464b-a1f7-0dafce64b666")
+		)
+		(pin "6"
+			(uuid "5c930e34-da8b-49f6-83b5-831fe71453b8")
+		)
+		(pin "42"
+			(uuid "2c354322-c7d2-4c84-9ba6-0febebb5435b")
+		)
+		(pin "14"
+			(uuid "037c6a15-030c-4ece-9e17-f867bbe12122")
+		)
+		(pin "19"
+			(uuid "cd9d582d-faf6-41e1-8e04-db77dd218cda")
+		)
+		(pin "25"
+			(uuid "76da0dc9-2bf6-4f79-9c3f-26bd7c1dcea1")
+		)
+		(pin "36"
+			(uuid "0dda9293-1366-4ae1-a53b-cb0ff7bd07e1")
+		)
+		(pin "9"
+			(uuid "df223243-08fb-43e1-a0fb-5f9c5ff5eb8d")
+		)
+		(pin "35"
+			(uuid "1c072981-3028-463e-88c0-40e7fe51c3da")
+		)
+		(pin "18"
+			(uuid "c61fcd97-96b0-4406-9166-521215bad58f")
+		)
+		(pin "31"
+			(uuid "e08e702d-87ce-4358-a0a0-0959e7f20a10")
+		)
+		(pin "5"
+			(uuid "f50b236b-dd09-42a5-8c79-47095ff95a18")
+		)
+		(instances
+			(project "z80bankSwitch"
+				(path "/e7eeb274-d662-49f9-a7ce-d4911c9f2b64"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 190.5 195.58 270)
 		(unit 1)
@@ -26010,178 +26213,6 @@
 			(project "z80bankSwitch"
 				(path "/e7eeb274-d662-49f9-a7ce-d4911c9f2b64"
 					(reference "R108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_RAM:AS6C4008-55PCN")
-		(at 215.9 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b78431-afe7-4af6-8668-7f352037497f")
-		(property "Reference" "U2"
-			(at 218.0433 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AS6C4008-55PCN"
-			(at 218.0433 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-32_W15.24mm"
-			(at 215.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
-			(at 215.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
-			(at 215.9 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "31"
-			(uuid "03b2c5d1-8996-47a8-aedf-d19acb216644")
-		)
-		(pin "18"
-			(uuid "6a81b662-e503-47d3-bfa5-42f2172c6c05")
-		)
-		(pin "20"
-			(uuid "b6f9d464-7d43-4955-b90b-418a0d20b339")
-		)
-		(pin "19"
-			(uuid "52bbce34-963b-4565-bc42-14e4a7b4829f")
-		)
-		(pin "28"
-			(uuid "faa07c87-64d4-49aa-92aa-7d8f78a83138")
-		)
-		(pin "14"
-			(uuid "1cc55ff6-7e27-4bf4-bbce-89045cade7b6")
-		)
-		(pin "13"
-			(uuid "68ab62ca-651d-4478-9223-c826611b0dc1")
-		)
-		(pin "10"
-			(uuid "fa871588-0257-42c3-bd79-4bd4f2a2baec")
-		)
-		(pin "15"
-			(uuid "8e941472-e2aa-4a0a-a24f-fb3ec1bb9b48")
-		)
-		(pin "30"
-			(uuid "63f637bd-da7e-48dc-b42c-a7d645e4ce5c")
-		)
-		(pin "27"
-			(uuid "57677ee1-a6a7-476f-b0a9-d63b7a0352fb")
-		)
-		(pin "25"
-			(uuid "dec29d4f-cac8-4eb5-9bb4-ecf78995bb7f")
-		)
-		(pin "7"
-			(uuid "73ae64f3-735a-4594-92b1-98298aba758e")
-		)
-		(pin "21"
-			(uuid "b32538a8-490a-42fa-894c-b1cfcf8c25b5")
-		)
-		(pin "24"
-			(uuid "ac3251ed-7522-4349-8d77-8d2b3af33dfc")
-		)
-		(pin "26"
-			(uuid "d1f9ac64-7162-468a-8717-bb972f53dd20")
-		)
-		(pin "8"
-			(uuid "36bfd7de-b283-40c8-ab63-9ae052464fef")
-		)
-		(pin "12"
-			(uuid "6a1b3c80-7ea2-4954-88c5-1b39ee1a616f")
-		)
-		(pin "29"
-			(uuid "41aa7f16-158a-43ef-819e-8aaa5e4dcb04")
-		)
-		(pin "6"
-			(uuid "cd2b7398-f200-4099-8dff-ed68d3665503")
-		)
-		(pin "11"
-			(uuid "ad54b3ef-0337-426e-91b3-c8e356528f0a")
-		)
-		(pin "17"
-			(uuid "bc85dafd-be96-4e1a-b90f-fe7df78d117f")
-		)
-		(pin "22"
-			(uuid "333cad38-ca68-4607-a3f9-b1263ca16702")
-		)
-		(pin "23"
-			(uuid "53547afb-6c27-4c76-a6ac-86898fb8682c")
-		)
-		(pin "9"
-			(uuid "6e96367a-2f82-4800-91f5-792c66cacbbe")
-		)
-		(pin "4"
-			(uuid "b587d803-f87d-4927-8479-52966ef3da12")
-		)
-		(pin "5"
-			(uuid "5f91546c-062d-4866-80ca-5b329d0555f4")
-		)
-		(pin "3"
-			(uuid "ad7329bc-aca0-4213-8b69-9d8b2ab47571")
-		)
-		(pin "16"
-			(uuid "21de1814-e613-47bc-ad7a-c1260a60bbd5")
-		)
-		(pin "32"
-			(uuid "e3319898-f005-4290-97ac-b85d9bbc3aca")
-		)
-		(pin "1"
-			(uuid "6714cc28-043d-4c4a-8553-7dd85944d1d2")
-		)
-		(pin "2"
-			(uuid "5ec1fc91-7d50-4ffe-8a03-8082958a9f74")
-		)
-		(instances
-			(project "z80bankSwitch"
-				(path "/e7eeb274-d662-49f9-a7ce-d4911c9f2b64"
-					(reference "U2")
 					(unit 1)
 				)
 			)
