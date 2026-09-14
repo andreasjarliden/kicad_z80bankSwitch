@@ -19354,16 +19354,6 @@
 		)
 		(uuid "c91c478d-3c11-4c03-97e8-a2f66fc9cefe")
 	)
-	(label "CLK_INT"
-		(at 64.77 205.74 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9272cc8-e85a-4b8c-96c1-5be8f1f7eecf")
-	)
 	(label "VCC"
 		(at 300.99 91.44 0)
 		(effects
@@ -27068,43 +27058,43 @@
 			(uuid "01e02c78-e452-4b5b-aa3d-a4c97efc7ea9")
 		)
 		(pin "9"
-			(uuid "795cbaed-e043-4539-889d-8fc826ae5f2d")
+			(uuid "795cbaed-e043-4539-889d-8fc826ae5f2e")
 		)
 		(pin "14"
-			(uuid "dcf22cef-f1e7-4f85-85c8-8327d3cf4376")
+			(uuid "dcf22cef-f1e7-4f85-85c8-8327d3cf4377")
 		)
 		(pin "4"
-			(uuid "8a9524a8-061d-4c41-918b-8bc2ae06abe1")
+			(uuid "8a9524a8-061d-4c41-918b-8bc2ae06abe2")
 		)
 		(pin "3"
-			(uuid "55867c1c-903c-492a-b77c-bf3abacd27f5")
+			(uuid "55867c1c-903c-492a-b77c-bf3abacd27f6")
 		)
 		(pin "2"
-			(uuid "87de76ad-38fb-4e20-9874-751d56031fe8")
+			(uuid "87de76ad-38fb-4e20-9874-751d56031fe9")
 		)
 		(pin "1"
-			(uuid "791aeff4-47ee-4086-875d-a8fce7cdc8b6")
+			(uuid "791aeff4-47ee-4086-875d-a8fce7cdc8b7")
 		)
 		(pin "8"
-			(uuid "9b29d4a8-b7f8-4eea-87e5-42f58115f135")
+			(uuid "9b29d4a8-b7f8-4eea-87e5-42f58115f136")
 		)
 		(pin "5"
-			(uuid "bba7c676-6e42-420c-bfc3-8a9df64508fa")
+			(uuid "bba7c676-6e42-420c-bfc3-8a9df64508fb")
 		)
 		(pin "12"
 			(uuid "6c5715f1-de02-4a5a-abdc-e6d5ebbdee87")
 		)
 		(pin "10"
-			(uuid "9e3d27e4-8f03-468d-b0d5-84442d745137")
+			(uuid "9e3d27e4-8f03-468d-b0d5-84442d745138")
 		)
 		(pin "11"
 			(uuid "60ee90fe-f30f-459e-a0d8-3f3efcdd9e88")
 		)
 		(pin "7"
-			(uuid "260c90db-c365-4a97-a84d-92ae76d03fa6")
+			(uuid "260c90db-c365-4a97-a84d-92ae76d03fa7")
 		)
 		(pin "6"
-			(uuid "30b07174-390e-4dc4-a54f-b9474aa15b3e")
+			(uuid "30b07174-390e-4dc4-a54f-b9474aa15b3f")
 		)
 		(instances
 			(project "z80bankSwitch"
@@ -27418,43 +27408,43 @@
 			(uuid "6464edea-1804-41bf-8f6a-4fa8cbce7e1b")
 		)
 		(pin "9"
-			(uuid "795cbaed-e043-4539-889d-8fc826ae5f2d")
+			(uuid "795cbaed-e043-4539-889d-8fc826ae5f2f")
 		)
 		(pin "14"
-			(uuid "dcf22cef-f1e7-4f85-85c8-8327d3cf4376")
+			(uuid "dcf22cef-f1e7-4f85-85c8-8327d3cf4378")
 		)
 		(pin "4"
-			(uuid "8a9524a8-061d-4c41-918b-8bc2ae06abe1")
+			(uuid "8a9524a8-061d-4c41-918b-8bc2ae06abe3")
 		)
 		(pin "3"
-			(uuid "55867c1c-903c-492a-b77c-bf3abacd27f5")
+			(uuid "55867c1c-903c-492a-b77c-bf3abacd27f7")
 		)
 		(pin "2"
-			(uuid "87de76ad-38fb-4e20-9874-751d56031fe8")
+			(uuid "87de76ad-38fb-4e20-9874-751d56031fea")
 		)
 		(pin "1"
-			(uuid "791aeff4-47ee-4086-875d-a8fce7cdc8b6")
+			(uuid "791aeff4-47ee-4086-875d-a8fce7cdc8b8")
 		)
 		(pin "8"
-			(uuid "9b29d4a8-b7f8-4eea-87e5-42f58115f135")
+			(uuid "9b29d4a8-b7f8-4eea-87e5-42f58115f137")
 		)
 		(pin "5"
-			(uuid "bba7c676-6e42-420c-bfc3-8a9df64508fa")
+			(uuid "bba7c676-6e42-420c-bfc3-8a9df64508fc")
 		)
 		(pin "12"
 			(uuid "cdc46db1-7a21-4007-9c8f-66b253a14d2e")
 		)
 		(pin "10"
-			(uuid "9e3d27e4-8f03-468d-b0d5-84442d745137")
+			(uuid "9e3d27e4-8f03-468d-b0d5-84442d745139")
 		)
 		(pin "11"
 			(uuid "32165de4-a463-44c0-a189-32806c2c6f21")
 		)
 		(pin "7"
-			(uuid "260c90db-c365-4a97-a84d-92ae76d03fa6")
+			(uuid "260c90db-c365-4a97-a84d-92ae76d03fa8")
 		)
 		(pin "6"
-			(uuid "30b07174-390e-4dc4-a54f-b9474aa15b3e")
+			(uuid "30b07174-390e-4dc4-a54f-b9474aa15b40")
 		)
 		(instances
 			(project "z80bankSwitch"
