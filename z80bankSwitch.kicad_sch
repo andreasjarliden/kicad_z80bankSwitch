@@ -16934,6 +16934,16 @@
 		)
 		(uuid "91d6d131-e16a-4275-af0b-da127d04c6e4")
 	)
+	(text "Address Decoding"
+		(exclude_from_sim no)
+		(at 127 209.804 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "afcb7eaa-9a53-4c92-8917-16c40d3d0082")
+	)
 	(junction
 		(at 34.29 203.2)
 		(diameter 0)

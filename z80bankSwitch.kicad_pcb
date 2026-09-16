@@ -13945,7 +13945,7 @@
 		(layer "Edge.Cuts")
 		(uuid "5cf59c26-6e54-4233-8b26-9060e2447b1e")
 	)
-	(gr_text "Z80 CPU Bank Switch Card v1.0 2026-mm-dd"
+	(gr_text "Z80 CPU Bank Switch Card v1.0 2026-09-16"
 		(at 29.845 234.315 0)
 		(layer "F.SilkS")
 		(uuid "8578eb8c-e2a3-4ae1-8559-c0b90acd92f4")
