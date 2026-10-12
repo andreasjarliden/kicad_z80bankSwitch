@@ -16914,6 +16914,16 @@
 		)
 		(uuid "80ed8b56-9ede-40fc-b53b-f2059e4df0de")
 	)
+	(text "Series load to \nreduce ringing"
+		(exclude_from_sim no)
+		(at 78.74 194.818 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "81da1621-73c8-4d04-b3dd-88c7b862f1cc")
+	)
 	(text "JTAG Port"
 		(exclude_from_sim no)
 		(at 214.63 208.026 0)
@@ -23699,7 +23709,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 233.68 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23779,7 +23789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 41.275 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +23870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 128.905 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23941,7 +23951,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 295.275 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24022,7 +24032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 292.735 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24103,7 +24113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 132.715 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24298,7 +24308,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 64.77 212.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24378,7 +24388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 65.405 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24459,7 +24469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22p"
 			(at 34.925 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24539,7 +24549,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "4MHz"
 			(at 48.26 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24618,7 +24628,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1M"
 			(at 48.26 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25315,7 +25325,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "51"
 			(at 78.74 201.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27136,7 +27146,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 226.06 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27660,7 +27670,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 201.93 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27739,7 +27749,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 214.63 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27820,7 +27830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 86.36 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
